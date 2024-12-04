@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind özelleştirmeleri ekleyebilirsiniz */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9fafb; /* Hafif gri arka plan */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Linkleri özelleştirmenizi sağlar */
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+header {
+  background-color: #1d4ed8; /* Tailwind mavi rengi */
+}
+
+footer {
+  background-color: #1d4ed8; /* Tailwind mavi rengi */
+}
+
+footer p {
+  font-size: 0.875rem; /* Küçük yazı */
+}
